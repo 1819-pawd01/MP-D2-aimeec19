@@ -1,0 +1,128 @@
+/*
+ *Aimee Cathers
+ *Due Date
+ *Midterm 
+*/
+
+/* The universal selector */
+
+* {}
+
+/* Body attributes here */
+
+body {
+    background-color: #B48AF3;
+    color: #FCEFFA;
+    font-family: times, serif;
+    font-size: 14pt;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 50pt;
+}
+
+
+ol {
+    list-style-type: ;
+    list-style-position: ;
+}
+ul {
+    list-style-type: ;
+    list-style-position: ;
+}
+
+dl {
+    list-style-type: ;
+    list-style-position: ;
+}
+
+
+
+/* images */
+img {
+    width: 50%;
+    height: 50%;
+}
+
+
+
+/* class selectors */
+.element {
+    background-color: #f56555;
+    color: black;
+}
+.description {
+    background-color: #F5A355;
+    color: black;
+}
+.example {
+    background-color: #F5EF55;
+    color: black;
+}
+.header {
+    text-decoration: underline;
+}
+.values {
+    background-color: #B9F555 ;
+    color: black;
+}
+.name {
+    background-color: #6CD7F5 ;
+    color: black;
+}
+.center {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+}
+.p8 {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+.list {
+    font-variant: small-caps;
+}
+.overline {
+    text-decoration: overline;
+}
+
+
+/* id selectors */
+#html {
+    background-color: #001E7D;
+    color: ;
+    text-decoration: underline;
+}
+#css {
+    background-color: #7D005C;
+    color: ;
+    text-decoration: underline;
+}
+#attributes {
+    background-color: #3E007D;
+    color: ;
+    text-decoration: underline;
+}
+
+
+/* links */
+a:link {
+		color:white;
+        text-decoration-color: white;
+		text-decoration-style:double; 
+		}
+a:visited {
+		Color: pink;
+		}
+a:hover{
+		Color: hotpink;
+		text-decoration: underline;
+		}
+a:focus	{
+		Color: red;
+		text-decoration: underline;
+		}
